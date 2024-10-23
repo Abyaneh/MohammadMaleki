@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohammad Maleki Abyaneh - Mechatronics Engineer & AI Enthusiast</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img src="your-logo1.webp" alt="Logo" style="width: 150px; border-radius: 50%; margin-bottom: 20px;">
+            <h1>Mohammad Maleki Abyaneh</h1>
+            <p>Mechatronics Engineer & AI Enthusiast</p>
+        </div>
+    </header>
+    <nav>
+        <div class="container">
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#exhibitions">Exhibitions Attended</a></li>
+                <li><a href="#honors">Honors & Awards</a></li>
+                <li><a href="#interests">Interests</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#survey">Leave Your Feedback</a></li>
+            </ul>
+        </div>
+    </nav>
+    <main>
+        <div class="container">
+            <section id="about">
+                <h2>About Me</h2>
+                <p>Hello! I'm Mohammad Maleki Abyaneh, a passionate Mechatronics Engineer currently pursuing my Bachelor's degree in Mechanical Engineering at K. N. Toosi University of Technology. I have a strong focus on Artificial Intelligence and Robotics, with expertise in developing real-time AI systems and automation solutions for complex industrial applications.</p>
+                <p>My work involves the intersection of mechanical engineering, electronics, and AI to create innovative solutions. I am particularly interested in computer vision, image processing, and neural networks to improve automation and safety systems.</p>
+                <p>My key technical skills include:</p>
+                <ul>
+                    <li>Proficiency in Python, MATLAB, and C++</li>
+                    <li>Advanced AI and Machine Learning models with TensorFlow and PyTorch</li>
+                    <li>Control system design and automation with robotics and embedded systems (Arduino, ESP32)</li>
+                    <li>Deep learning, neural networks, and computer vision</li>
+                    <li>Image processing for industrial and automation applications</li>
+                    <li>Mechatronics and integrating software with hardware systems</li>
+                </ul>
+                <p>
+                    <strong>Download my resume:</strong> 
+                    <a href="resume.pdf" download>
+                        <i class="fas fa-download"></i> Download Resume
+                    </a>
+                </p>
+            </section>
+
+            <section id="experience">
+                <h2>Experience</h2>
+                <h3>Teaching Assistant | K. N. Toosi University of Technology</h3>
+                <p>Sep 2023 - Feb 2024</p>
+                <p>Teaching Assistant for computer programming in C++.</p>
+
+                <h3>Intern | Nasir Driving Simulator</h3>
+                <p>Tehran, Iran | Apr 2024 - Present</p>
+                <ul>
+                    <li>Developed a safety zone detection system for dump trucks using YOLO and OpenCV.</li>
+                    <li>Integrated neural networks to analyze weather conditions and dynamically adjust safety zone sizes.</li>
+                    <li>Collaborated with engineering teams to implement AI-driven solutions for industrial safety.</li>
+                    <li>Demonstrated expertise in developing machine learning models for real-time data analysis.</li>
+                </ul>
+                <img src="nasir-logo.png" alt="Nasir Driving Simulator Logo" style="width: 100px;">
+                <p><strong>Company Website:</strong> <a href="https://drivingsimulator.ir/en" target="_blank">Nasir Driving Simulator</a></p>
+            </section>
+
+            <section id="projects">
+                <h2>Projects</h2>
+                <ul>
+
+                    <!-- Project 1-->
+                    <li><a href="javascript:void(0)" onclick="toggleProject('project1')">🚗 Vehicle Detection and Counting with YOLO</a></li>
+                    <div id="project1" class="project-details">
+                        <p>This project utilizes the YOLO algorithm to detect and count vehicles in real-time, helping with traffic monitoring and analysis.</p>
+                        <p><strong>Technologies:</strong> Python, OpenCV, YOLOv10, TensorFlow</p>
+                        <img src="car-counter-image.png" alt="Vehicle Detection" style="width: 300px;">
+                        <p><strong>GitHub Repository:</strong> <a href="https://github.com/Abyaneh/Car-Counter-Project" target="_blank">View on GitHub</a></p>
+                    </div>
+                    
+                    <!-- Project 2-->
+                    <li><a href="javascript:void(0)" onclick="toggleProject('project2')">🤖🍌 Autonomous Robot Navigation and Object Detection</a></li>
+                    <div id="project2" class="project-details">
+                        <p>In this project, we built an autonomous robot that can navigate environments and detect objects using computer vision and sensor fusion techniques.</p>
+                        <p><strong>Technologies:</strong> ROS, Python, OpenCV</p>
+                        <img src="robot-navigation-image.jpg" alt="Autonomous Robot" style="width: 300px;">
+                        <p><strong>GitHub Repository:</strong> <a href="https://github.com/Abyaneh/Autonomous_Robot_Navigation_and_Object_Detection" target="_blank">View on GitHub</a></p>
+                    </div>
+
+                    <!-- Project 3-->
+                    <li><a href="javascript:void(0)" onclick="toggleProject('project3')">🎱 Control of Ball Position on a Horizontal Rod</a></li>
+                    <div id="project3" class="project-details">
+                        <p>This control system project focuses on maintaining a ball's position on a horizontal rod using PID control techniques.</p>
+                        <p><strong>Technologies:</strong> MATLAB, Simulink, Control Systems</p>
+                        <img src="ball-control-image.png" alt="Ball Position Control" style="width: 300px;">
+                        <p><strong>GitHub Repository:</strong> <a href="https://github.com/Abyaneh/Control-of-Ball-Position-on-a-Horizontal-Rod" target="_blank">View on GitHub</a></p>
+                    </div>
+
+                    <!-- Project 4-->
+                    <li><a href="javascript:void(0)" onclick="toggleProject('project4')">🚜🔴🌧❄ Dynamic Dump Truck Hazard Zone Detection</a></li>
+                    <div id="project4" class="project-details">
+                        <p>This project develops a hazard zone detection system for dynamic dump trucks, analyzing road conditions and potential risks using advanced algorithms.</p>
+                        <p><strong>Technologies:</strong> Python, Image Processing, Machine Learning</p>
+                        <img src="dump-truck-image.jpg" alt="Hazard Zone Detection" style="width: 300px;">
+                        <p><strong>GitHub Repository:</strong> <a href="https://github.com/Abyaneh/Dynamic-Dump-Truck-Hazard-Zone-Detection-with-Road-Condition-Analysis" target="_blank">View on GitHub</a></p>
+                    </div>
+
+                    <!-- Project 5-->
+                    <li><a href="javascript:void(0)" onclick="toggleProject('project5')">🚗 CNN-Based Steering Angle Estimation</a></li>
+                    <div id="project5" class="project-details">
+                        <p>This project utilizes Convolutional Neural Networks (CNNs) to estimate the steering angle of a vehicle from images, helping in autonomous driving systems.</p>
+                        <p><strong>Technologies:</strong> Python, TensorFlow, CNN</p>
+                        <img src="steering-angle-image.jpeg" alt="Steering Angle Estimation" style="width: 300px;">
+                        <p><strong>GitHub Repository:</strong> <a href="https://github.com/Abyaneh/CNN-Based-Steering-Angle-Estimation" target="_blank">View on GitHub</a></p>
+                    </div>
+
+                    <!-- Project 6-->
+                    <li><a href="javascript:void(0)" onclick="toggleProject('project6')">🩺 Fatty Liver Disease Diagnosis using Neural Networks</a></li>
+                    <div id="project6" class="project-details">
+                        <p>This project focuses on diagnosing fatty liver disease using neural networks. It uses patient data to train the model for accurate predictions of liver conditions.</p>
+                        <p><strong>Technologies:</strong> Python, TensorFlow, Keras, Neural Networks, Pandas, NumPy, Data Preprocessing</p>
+                        <img src="Epoch-Accuracy_and_Epoch-Loss_Scores _for_Model_6_RandomizedSearchCV.png" alt="Fatty Liver Disease Diagnosis" style="width: 300px;">
+                        <p><strong>GitHub Repository:</strong> <a href="https://github.com/Abyaneh/Diagnosis_of_Patients_Neural_Network_project" target="_blank">View on GitHub</a></p>
+                    </div>
+
+                    <!-- Project 7-->
+                    <li><a href="javascript:void(0)" onclick="toggleProject('project7')">👗👖 Clothing Classification using CNNs</a></li>
+                    <div id="project7" class="project-details">
+                        <p>This project uses Convolutional Neural Networks (CNNs) to classify various clothing types such as shirts, pants, dresses, and more. It achieves high accuracy through deep learning techniques and data augmentation.</p>
+                        <p><strong>Technologies:</strong> Python, TensorFlow, Keras, CNN, Pandas, NumPy, Data Augmentation</p>
+                        <img src="Clothing Classification Image.png" alt="Clothing Classification using CNNs" style="width: 300px;">
+                        <p><strong>GitHub Repository:</strong> <a href="https://github.com/Abyaneh/Clothing_Classification_Neural_Network_project" target="_blank">View on GitHub</a></p>
+                    </div>
+
+
+                    <!-- Project 8-->
+                    <li><a href="javascript:void(0)" onclick="toggleProject('project8')">📐 Rise and Slope Calculation in Beams</a></li>
+                    <div id="project8" class="project-details">
+                        <p>This project focuses on calculating the rise and slope in beams, crucial for structural engineering applications.</p>
+                        <p><strong>Technologies:</strong> C++, Strength of Materials principles.</p>
+                        <img src="Output_ Sample.png" alt="Rise and Slope Calculation in Beams" style="width: 300px;">
+                        <p><strong>GitHub Repository:</strong> <a href="https://github.com/Abyaneh/Rise-and-Slope-Calculation-in-Beams/tree/main" target="_blank">View on GitHub</a></p>
+                    </div>
+
+                    <!-- Project 9-->
+                    <li><a href="javascript:void(0)" onclick="toggleProject('project9')">🏗 Truss Structure Analysis Project</a></li>
+                    <div id="project9" class="project-details">
+                        <p>This project focuses on the structural analysis of trusses. A C++ program reads input files containing data for different case studies and computes the forces acting on the truss members.</p>
+                        <p><strong>Technologies:</strong> C++, Structural Mechanics</p>
+                        <img src="truss-structure-image.jpg" alt="Truss Structure" style="width: 300px;">
+                        <p><strong>GitHub Repository:</strong> <a href="https://github.com/Abyaneh/Truss-Structure-Analysis-Project/tree/main#input-files" target="_blank">View on GitHub</a></p>
+                    </div>
+
+                    <!-- Project 10-->
+                    <li><a href="javascript:void(0)" onclick="toggleProject('project10')">🤖🏨 Autonomous Robot Navigation and Object Detection Using Aruco Markers</a></li>
+                    <div id="project10" class="project-details">
+                        <p>This project is an autonomous robot designed for navigating hospital environments. It uses Aruco markers for object detection and tracking to interact with its surroundings in real-time.</p>
+                        <p><strong>Technologies:</strong> Python, OpenCV, Aruco Markers, ESP32</p>
+                        
+                        <div class="image-row">
+                            <img src="Structure of Robot.png" alt="Structure of Robot" style="width: 300px;">
+                            <img src="Voice assistant and easy to use in the bot.png" alt="Voice assistant and easy to use in the bot" style="width: 300px;">
+                        </div>
+                        
+                        <p><strong>GitHub Repository:</strong> <a href="https://github.com/Abyaneh/Smart_Hospital/tree/main" target="_blank">View on GitHub</a></p>
+                    </div>
+
+                    <!-- Project 11-->
+                    <li><a href="javascript:void(0)" onclick="toggleProject('project11')">❌⭕ Tic-Tac-Toe Game</a></li>
+                    <div id="project11" class="project-details">
+                        <p>This project is a classic Tic-Tac-Toe game implemented in C++. It allows two players to take turns marking their symbols on a 4x4 grid and determines the winner or if the game ends in a draw.</p>
+                        <p><strong>Technologies:</strong> C++</p>
+                        <img src="tic-tac-toe.jpg" alt="Tic-Tac-Toe Game" style="width: 300px;">
+                        <p><strong>GitHub Repository:</strong> <a href="https://github.com/Abyaneh/tic-tac-toe" target="_blank">View on GitHub</a></p>
+                    </div>
+
+                    <!-- Project 12-->
+                    <li><a href="javascript:void(0)" onclick="toggleProject('project12')">🎯 Inverted Pendulum Control System</a></li>
+                    <div id="project12" class="project-details">
+                        <p>This project involves designing a control system to stabilize an inverted pendulum. The system is modeled and simulated using Matlab, with a PID controller ensuring the pendulum maintains a stable vertical position (θ = 180°) from an unstable starting position (θ = 0).</p>
+                        <p><strong>Technologies:</strong> Matlab, Simulink, Control Systems, PID Controller</p>
+                        <img src="inverted-pendulum-image.jpg" alt="Inverted Pendulum Control System" style="width: 300px;">
+                        <p><strong>GitHub Repository:</strong> <a href="https://github.com/Abyaneh/Inverted-Pendulum-Control-System/tree/main" target="_blank">View on GitHub</a></p>
+                    </div>
+
+                </ul>
+            </section>
+
+            <section id="exhibitions">
+                <h2>Exhibitions Attended</h2>
+                <p>One of the notable exhibitions I attended is the <strong>IranSakht Exhibition</strong>, held in April 2024. This event showcased advanced technological innovations, and I gained insight into groundbreaking products such as concrete testing machines and LiDAR-based vibration sensors.</p>
+                <p>The exhibition was an excellent opportunity to connect with industry leaders and explore the latest advancements in mechanical engineering, concrete technology, and industrial automation.</p>
+                <img src="iranlab-og.jpg" alt="IranSakht Logo" style="width: 100px;">
+                <p><strong>Website:</strong> <a href="https://iranlabexpo.ir/index.php?lang=2" target="_blank">IranSakht Exhibition</a></p>
+                <p><strong>Report of the IranSakht Exhibition:</strong> Read the detailed <a href="Report of the IranSakht exhibition.pdf" target="_blank">report here</a>.</p>
+            </section>
+
+            <section id="interests">
+                <h2>Interests</h2>
+                <ul>
+                    <li>🏋️‍♂️ Bodybuilding (Professional)</li>
+                    <li>🏓 Table Tennis (Professional)</li>
+                    <li>🚀 Entrepreneurship and Leadership</li>
+                </ul>
+            </section>
+
+            <section id="honors">
+                <h2>Honors & Awards</h2>
+                <p><strong>Direct master admission from National Organization for Development of Exceptional Talents</strong></p>
+                <p>Sep 2024 | K. N. Toosi University of Technology</p>
+            
+                <p><strong>Ranked within the top 5% of mechanical engineering students from the same year of entrance</strong></p>
+                <p>Sep 2024 | K. N. Toosi University of Technology</p>
+            
+                <p><strong>Ranked within the top 1.5% in the Iranian University Entrance Exam</strong></p>
+                <p>Aug 2020</p>
+            
+                <p>
+                    <strong>Scholarship from Pardis Technology Park (PTP) as a top talented student</strong>
+                    <button class="toggle-btn" onclick="toggleDescription()">More details</button>
+                </p>
+                <p>Sep 2024 | Pardis Technology Park (PTP)</p>
+            
+                <div id="ptp-description" class="hidden">
+                    <p>I was awarded a prestigious scholarship by Pardis Technology Park, which supports top talented students in Iran. The scholarship reduced the fee for an intensive training program from 24 million IRR to 4 million IRR, allowing me to access industry-focused education designed to prepare students for the job market. This program is part of PTP's mission to nurture innovation and bridge the gap between academic knowledge and industry needs, enabling participants to gain practical skills for a smooth transition into professional roles.</p>
+                    <img src="PardisTechPark-logo.png" alt="PardisTechPark Logo" style="width: 100px;">
+                    <p><strong>Website:</strong> <a href="https://en.iiid.tech/" target="_blank">Pardis Technology Park (PTP)</a></p>
+                </div>
+            </section>
+
+            <section id="contact">
+                <h2>Contact</h2>
+                <p>You can reach me at:</p>
+                <div class="contact-info">
+                    <a href="mailto:mohammad.malekiabyaneh@gmail.com"><i class="fas fa-envelope"></i> mohammad.malekiabyaneh@gmail.com</a>
+                    <a href="https://www.linkedin.com/in/mohammad-maleki-abyaneh" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                </div>
+            </section>
+
+            <section id="survey">
+                <h2>Leave Your Feedback</h2>
+                <form action="submit_survey.php" method="POST" onsubmit="return validateFeedbackForm()">
+                    <!-- Emoji Picker -->
+                    <label for="feedback">Let me know your thoughts:</label>
+                    <textarea id="feedback" name="feedback" rows="4" placeholder="Write your feedback here..."></textarea>
+                    <div id="emoji-picker-container">
+                        <button type="button" id="emoji-btn" onclick="toggleEmojiPicker()">😊 Add Emoji</button>
+                        <div id="emoji-picker" class="hidden">
+                            <span onclick="addEmoji('😊')">😊</span>
+                            <span onclick="addEmoji('👍')">👍</span>
+                            <span onclick="addEmoji('👎')">👎</span>
+                            <span onclick="addEmoji('❤️')">❤️</span>
+                            <span onclick="addEmoji('😂')">😂</span>
+                            <!-- Add more emojis as needed -->
+                        </div>
+                    </div>
+                    
+                    <!-- Preview Feedback -->
+                    <div id="preview-container">
+                        <button type="button" onclick="previewFeedback()">👀 Preview Feedback</button>
+                        <div id="feedback-preview" class="hidden"></div>
+                    </div>
+                
+                    <!-- Submit Button -->
+                    <button type="submit">Submit</button>
+                    
+                    <!-- Success/Error Message -->
+                    <div id="message-container"></div>
+                </form>
+                
+                <!-- Display Comments -->
+                <section id="comments-section">
+                    <h3>User Comments</h3>
+                    <ul id="comments-list">
+                        <!-- Sample Comment -->
+                        <li>
+                            <p><strong>John Doe:</strong> Great project! Really liked the work you did. 👍</p>
+                            <div class="comment-actions">
+                                <button onclick="likeComment(this)">👍 Like</button>
+                                <span class="like-count">0</span>
+                                <button onclick="dislikeComment(this)">👎 Dislike</button>
+                                <span class="dislike-count">0</span>
+                                <button onclick="replyToComment(this)">💬 Reply</button>
+                            </div>
+                            <!-- Reply Section -->
+                            <div class="reply-container hidden">
+                                <textarea rows="2" placeholder="Write a reply..."></textarea>
+                                <button type="button" onclick="submitReply(this)">Submit Reply</button>
+                            </div>
+                            <ul class="replies-list">
+                                <!-- Replies will be inserted here -->
+                            </ul>
+                        </li>
+                    </ul>
+                </section>
+            </div>
+        </main>
+
+
+
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Mohammad Maleki Abyaneh. All rights reserved.</p>
+        </div>
+        <button onclick="scrollToTop()" id="scrollToTopBtn" title="Go to top">
+            ↑
+        </button>
+    </footer>
+</body>
+<script>
+    // Scroll to Top Button Script
+    const scrollToTopBtn = document.getElementById("scrollToTopBtn");
+    window.onscroll = function() {
+        showScrollToTopButton();
+    };
+
+    function showScrollToTopButton() {
+        if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+            scrollToTopBtn.style.display = "block";
+        } else {
+            scrollToTopBtn.style.display = "none";
+        }
+    }
+
+    function scrollToTop() {
+        window.scrollTo({top: 0, behavior: 'smooth'});
+    }
+
+    
+        // Project Toggle Script
+        function toggleProject(projectId) {
+            const projectDetails = document.getElementById(projectId);
+            if (projectDetails.style.display === "none" || projectDetails.style.display === "") {
+                projectDetails.style.display = "block";
+            } else {
+                projectDetails.style.display = "none";
+            }
+        }
+
+        // Description Toggle Script
+        function toggleDescription() {
+            const description = document.getElementById("ptp-description");
+            if (description.style.display === "none" || description.style.display === "") {
+                description.style.display = "block";
+            } else {
+                description.style.display = "none";
+            }
+        }
+    </script>
+</body>
+</html>
+
+    
