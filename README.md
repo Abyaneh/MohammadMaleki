@@ -1,7 +1,7 @@
 # Mohammad Maleki Abyaneh
 **Mechatronics Engineer & AI Enthusiast**
 
-![Mohammad Maleki Abianeh]([link_to_your_photo](https://github.com/Abyaneh/MohammadMaleki/blob/main/photos/Personal_pohoto.jpg))  
+![Mohammad Maleki Abianeh](https://github.com/Abyaneh/MohammadMaleki/blob/main/photos/Personal_pohoto.jpg)  
 
 ## Table of Contents
 - [About Me](#about-me)
