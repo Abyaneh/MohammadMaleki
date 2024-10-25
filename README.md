@@ -45,18 +45,18 @@ My work involves the intersection of mechanical engineering, electronics, and AI
 [Back to Top](#table-of-contents)
 
 ## Projects
-- 🚗 **Vehicle Detection and Counting with YOLO**
-- 🤖🍌 **Autonomous Robot Navigation and Object Detection**
-- 🎱 **Control of Ball Position on a Horizontal Rod**
-- 🚜🔴🌧❄ **Dynamic Dump Truck Hazard Zone Detection**
-- 🚗 **CNN-Based Steering Angle Estimation**
-- 🩺 **Fatty Liver Disease Diagnosis using Neural Networks**
-- 👗👖 **Clothing Classification using CNNs**
-- 📐 **Rise and Slope Calculation in Beams**
-- 🏗 **Truss Structure Analysis Project**
-- 🤖🏨 **Autonomous Robot Navigation and Object Detection Using Aruco Markers**
-- ❌⭕ **Tic-Tac-Toe Game**
-- 🎯 **Inverted Pendulum Control System**
+- 🚜🔴🌧❄ Real-time Collision Avoidance Smart System for Dump Trucks using Deep Learning
+- 🤖🍌 Autonomous Agricultural Robot Navigation and Object Detection
+- 🚗 Vehicle Detection and Counting System Using YOLO and SORT Tracker
+- 🤖🏨 Smart Hospital
+-🚗 CNN-Based Steering Angle Estimation
+- 🩺 Fatty Liver Disease Diagnosis using Neural Networks
+- 👗👖 Clothing Classification using CNNs
+- 🎱 Control of Ball Position on a Horizontal Rod
+- 🎯 Inverted Pendulum Control System
+- 📐 Rise and Slope Calculation in Beams
+- 🏗 Truss Structure Analysis Project
+- ❌⭕ Tic-Tac-Toe Game
 
 [Back to Top](#table-of-contents)
 
