@@ -1,6 +1,6 @@
 # Mohammad Maleki Abyaneh
 **Mechatronics Engineer & AI Enthusiast**
-
+<img src="https://github.com/Abyaneh/MohammadMaleki/blob/main/photos/Personal_photo1.jpg" alt="Personal_Picture" width="400"/>
 ![Mohammad Maleki Abianeh](https://github.com/Abyaneh/MohammadMaleki/blob/main/photos/Personal_photo1.jpg)  
 
 ## Table of Contents
