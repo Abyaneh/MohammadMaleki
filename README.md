@@ -26,7 +26,7 @@ My work involves the intersection of mechanical engineering, electronics, and AI
 - Image processing for industrial and automation applications
 - Mechatronics and integrating software with hardware systems
 
-[Download my resume](link_to_your_resume) <!-- Replace with the actual link to your resume -->
+[Download my resume](link_to_your_resume) 
 
 [Back to Top](#table-of-contents)
 
@@ -93,8 +93,9 @@ The exhibition was an excellent opportunity to connect with industry leaders and
 ## Contact
 You can reach me at:
 - **Email:** [mohammad.malekiabyaneh@gmail.com](mailto:mohammad.malekiabyaneh@gmail.com)
-- **GitHub:** [Your GitHub Profile](https://github.com/Abyaneh) <!-- Replace with your GitHub profile link -->
-- **LinkedIn:** [Your LinkedIn Profile](https://www.linkedin.com/in/your-profile) <!-- Replace with your LinkedIn profile link -->
+- **GitHub:** [Your GitHub Profile](https://github.com/Abyaneh) 
+- **LinkedIn:** [Your LinkedIn Profile](https://www.linkedin.com/in/your-profile) 
+- **Personal Website:** [abyaneh.github.io/MohammadMaleki/](https://abyaneh.github.io/MohammadMaleki/)
 - 
 [Back to Top](#table-of-contents)
 
