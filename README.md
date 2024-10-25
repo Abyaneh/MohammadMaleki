@@ -49,7 +49,7 @@ My work involves the intersection of mechanical engineering, electronics, and AI
 - 🤖🍌 Autonomous Agricultural Robot Navigation and Object Detection
 - 🚗 Vehicle Detection and Counting System Using YOLO and SORT Tracker
 - 🤖🏨 Smart Hospital
--🚗 CNN-Based Steering Angle Estimation
+- 🚗 CNN-Based Steering Angle Estimation
 - 🩺 Fatty Liver Disease Diagnosis using Neural Networks
 - 👗👖 Clothing Classification using CNNs
 - 🎱 Control of Ball Position on a Horizontal Rod
