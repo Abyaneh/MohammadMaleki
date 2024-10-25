@@ -262,7 +262,7 @@ nav ul {
 }
 
 nav ul li {
-    margin: 10px 20px; /* Space between items */
+    margin: 5px 10px; /* Space between items */
 }
 
 nav ul li a {
@@ -376,3 +376,13 @@ nav ul li a:hover {
 .replies-list {
     margin-left: 20px;
 }
+
+.circular-image {
+    width: 170px; /* Final size of the image */
+    height: 170px; /* Ensures aspect ratio is maintained */
+    border-radius: 50%; /* Makes the image circular */
+    margin-bottom: 20px; /* Space below the image */
+    object-fit: cover; /* Crops and properly fits the image */
+    object-position: 50% 40%; /* Displays the upper part of the image */
+}
+
