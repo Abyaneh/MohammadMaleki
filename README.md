@@ -1,7 +1,7 @@
 # Mohammad Maleki Abyaneh
 **Mechatronics Engineer & AI Enthusiast**
 
-![Mohammad Maleki Abianeh](https://github.com/Abyaneh/MohammadMaleki/blob/main/photos/Personal_pohoto.jpg)  
+<img src="https://github.com/Abyaneh/MohammadMaleki/blob/main/photos/Personal_photo1.jpg" alt="Personal_Picture" width="300"/>
 
 ## Table of Contents
 - [About Me](#about-me)
@@ -11,6 +11,7 @@
 - [Honors & Awards](#honors--awards)
 - [Interests](#interests)
 - [Contact](#contact)
+- [License](#license)
 
 ## About Me
 Hello! I'm Mohammad Maleki Abyaneh, a passionate Mechatronics Engineer currently pursuing my Bachelor's degree in Mechanical Engineering at K. N. Toosi University of Technology. I have a strong focus on Artificial Intelligence and Robotics, with expertise in developing real-time AI systems and automation solutions for complex industrial applications.
@@ -27,6 +28,8 @@ My work involves the intersection of mechanical engineering, electronics, and AI
 
 [Download my resume](link_to_your_resume) <!-- Replace with the actual link to your resume -->
 
+[Back to Top](#table-of-contents)
+
 ## Experience
 ### Teaching Assistant | K. N. Toosi University of Technology
 *Sep 2023 - Feb 2024*
@@ -38,6 +41,8 @@ My work involves the intersection of mechanical engineering, electronics, and AI
 - Integrated neural networks to analyze weather conditions and dynamically adjust safety zone sizes.
 - Collaborated with engineering teams to implement AI-driven solutions for industrial safety.
 - Demonstrated expertise in developing machine learning models for real-time data analysis.
+
+[Back to Top](#table-of-contents)
 
 ## Projects
 - 🚗 **Vehicle Detection and Counting with YOLO**
@@ -53,15 +58,21 @@ My work involves the intersection of mechanical engineering, electronics, and AI
 - ❌⭕ **Tic-Tac-Toe Game**
 - 🎯 **Inverted Pendulum Control System**
 
+[Back to Top](#table-of-contents)
+
 ## Exhibitions Attended
 One of the notable exhibitions I attended is the **IranSakht Exhibition**, held in April 2024. This event showcased advanced technological innovations, and I gained insight into groundbreaking products such as concrete testing machines and LiDAR-based vibration sensors.
 
 The exhibition was an excellent opportunity to connect with industry leaders and explore the latest advancements in mechanical engineering, concrete technology, and industrial automation.
 
+[Back to Top](#table-of-contents)
+
 ## Interests
 - 🏋️‍♂️ **Bodybuilding (Professional)**
 - 🏓 **Table Tennis (Professional)**
 - 🚀 **Entrepreneurship and Leadership**
+
+[Back to Top](#table-of-contents)
 
 ## Honors & Awards
 - **Direct master admission from the National Organization for Development of Exceptional Talents**  
@@ -77,8 +88,17 @@ The exhibition was an excellent opportunity to connect with industry leaders and
   *Sep 2024 | Pardis Technology Park (PTP)*  
   Awarded a prestigious scholarship that significantly reduced the fee for an intensive training program, allowing me to access industry-focused education designed to prepare students for the job market.
 
+[Back to Top](#table-of-contents)
+
 ## Contact
 You can reach me at:
 - **Email:** [mohammad.malekiabyaneh@gmail.com](mailto:mohammad.malekiabyaneh@gmail.com)
 - **GitHub:** [Your GitHub Profile](https://github.com/Abyaneh) <!-- Replace with your GitHub profile link -->
 - **LinkedIn:** [Your LinkedIn Profile](https://www.linkedin.com/in/your-profile) <!-- Replace with your LinkedIn profile link -->
+- 
+[Back to Top](#table-of-contents)
+
+## License
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/Abyaneh/rotten_and_fresh/blob/main/LICENSE) file for details.
+
+[Back to Top](#table-of-contents)
