@@ -93,9 +93,9 @@ The exhibition was an excellent opportunity to connect with industry leaders and
 ## Contact
 You can reach me at:
 - **Email:** [mohammad.malekiabyaneh@gmail.com](mailto:mohammad.malekiabyaneh@gmail.com)
-- **GitHub:** [Your GitHub Profile](https://github.com/Abyaneh) 
-- **LinkedIn:** [Your LinkedIn Profile](https://www.linkedin.com/in/your-profile) 
-- **Personal Website:** [abyaneh.github.io/MohammadMaleki/](https://abyaneh.github.io/MohammadMaleki/)
+- **GitHub:** [Link](https://github.com/Abyaneh) 
+- **LinkedIn:** [Link](https://www.linkedin.com/in/your-profile) 
+- **Personal Website:** [Link](https://abyaneh.github.io/MohammadMaleki/)
 
 [Back to Top](#table-of-contents)
 
