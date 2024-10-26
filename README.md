@@ -1,4 +1,4 @@
-# Mohammad Maleki Abyaneh
+# Mohammad Maleki Abyaneh (Personal Website)
 **Mechatronics Engineer & AI Enthusiast**
 
 <img src="https://github.com/Abyaneh/MohammadMaleki/blob/main/photos/Personal_photo1.jpg" alt="Personal_Picture" width="300"/>
@@ -26,7 +26,7 @@ My work involves the intersection of mechanical engineering, electronics, and AI
 - Image processing for industrial and automation applications
 - Mechatronics and integrating software with hardware systems
 
-[Download my resume](link_to_your_resume) <!-- Replace with the actual link to your resume -->
+[Download my resume](link_to_your_resume) 
 
 [Back to Top](#table-of-contents)
 
@@ -45,18 +45,18 @@ My work involves the intersection of mechanical engineering, electronics, and AI
 [Back to Top](#table-of-contents)
 
 ## Projects
-- 🚗 **Vehicle Detection and Counting with YOLO**
-- 🤖🍌 **Autonomous Robot Navigation and Object Detection**
-- 🎱 **Control of Ball Position on a Horizontal Rod**
-- 🚜🔴🌧❄ **Dynamic Dump Truck Hazard Zone Detection**
-- 🚗 **CNN-Based Steering Angle Estimation**
-- 🩺 **Fatty Liver Disease Diagnosis using Neural Networks**
-- 👗👖 **Clothing Classification using CNNs**
-- 📐 **Rise and Slope Calculation in Beams**
-- 🏗 **Truss Structure Analysis Project**
-- 🤖🏨 **Autonomous Robot Navigation and Object Detection Using Aruco Markers**
-- ❌⭕ **Tic-Tac-Toe Game**
-- 🎯 **Inverted Pendulum Control System**
+- 🚜🔴🌧❄ Real-time Collision Avoidance Smart System for Dump Trucks using Deep Learning
+- 🤖🍌 Autonomous Agricultural Robot Navigation and Object Detection
+- 🚗 Vehicle Detection and Counting System Using YOLO and SORT Tracker
+- 🤖🏨 Smart Hospital
+- 🚗 CNN-Based Steering Angle Estimation
+- 🩺 Fatty Liver Disease Diagnosis using Neural Networks
+- 👗👖 Clothing Classification using CNNs
+- 🎱 Control of Ball Position on a Horizontal Rod
+- 🎯 Inverted Pendulum Control System
+- 📐 Rise and Slope Calculation in Beams
+- 🏗 Truss Structure Analysis Project
+- ❌⭕ Tic-Tac-Toe Game
 
 [Back to Top](#table-of-contents)
 
@@ -93,9 +93,10 @@ The exhibition was an excellent opportunity to connect with industry leaders and
 ## Contact
 You can reach me at:
 - **Email:** [mohammad.malekiabyaneh@gmail.com](mailto:mohammad.malekiabyaneh@gmail.com)
-- **GitHub:** [Your GitHub Profile](https://github.com/Abyaneh) <!-- Replace with your GitHub profile link -->
-- **LinkedIn:** [Your LinkedIn Profile](https://www.linkedin.com/in/your-profile) <!-- Replace with your LinkedIn profile link -->
-- 
+- **GitHub:** [Link](https://github.com/Abyaneh) 
+- **LinkedIn:** [Link](https://www.linkedin.com/in/mohammad-maleki-abyaneh/) 
+- **Personal Website:** [Link](https://abyaneh.github.io/MohammadMaleki/)
+
 [Back to Top](#table-of-contents)
 
 ## License
