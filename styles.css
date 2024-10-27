@@ -233,38 +233,27 @@ footer p {
 
 /* Previous styles remain unchanged, only new items added */
 
-.project-details {
-    display: none; /* By default, project details are hidden */
-    margin-top: 10px;
-    background-color: rgba(255, 255, 255, 0.9); /* Background with transparency */
-    padding: 10px;
-    border-radius: 8px;
-}
 
-.project-details img {
-    width: 300px; /* Images are smaller */
-    margin: 10px 0;
-}
 
-#interests {
+#Personal Interests {
     background: #ffffff;
     padding: 20px;
     margin-bottom: 20px;
     border-radius: 5px;
 }
 
-#interests h2 {
+#Personal Interests h2 {
     font-size: 1.8em;
     margin-bottom: 10px;
     color: #35424a;
 }
 
-#interests ul {
+#Personal Interests ul {
     list-style-type: none;
     padding-left: 0;
 }
 
-#interests ul li {
+#Personal Interests ul li {
     margin-bottom: 10px;
     font-size: 1.2em;
     color: #333;
@@ -280,7 +269,7 @@ nav ul {
 }
 
 nav ul li {
-    margin: 5px 10px; /* Space between items */
+    margin: 5px 7px; /* Space between items */
 }
 
 nav ul li a {
@@ -312,7 +301,7 @@ nav ul li a:hover {
     width: 48%; /* Set width for side-by-side image display */
 }
 
-.hidden {
+/* .hidden {
     display: none;
 }
 
@@ -337,7 +326,60 @@ nav ul li a:hover {
 
 .toggle-btn:hover {
     background-color: #0056b3;
+} */
+
+
+
+.hidden {
+    display: none;
 }
+
+.toggle-btn {
+    background-color: #007BFF; /* رنگ آبی */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.toggle-btn:hover {
+    background-color: #0056b3; /* رنگ تیره‌تر در حالت هاور */
+}
+
+#ptp-description {
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+#ptp-description p {
+    margin: 0; /* حذف حاشیه های پیش فرض پاراگراف */
+}
+
+#ptp-description img {
+    max-width: 100px; /* حداکثر عرض تصویر */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* Emoji Picker Styling */
 #emoji-picker-container {
@@ -402,5 +444,220 @@ nav ul li a:hover {
     margin-bottom: 20px; /* Space below the image */
     object-fit: cover; /* Crops and properly fits the image */
     object-position: 50% 40%; /* Displays the upper part of the image */
+}
+
+
+
+
+
+
+.social-links {
+    display: flex;
+    gap: 15px; /* فاصله بین آیکون‌ها */
+    margin-top: 10px; /* فاصله از بخش بالا */
+}
+
+.social-links a {
+    color: black;
+    font-size: 1.5rem;
+    transition: color 0.3s;
+}
+
+.social-links a:hover {
+    color: red; /* رنگ قرمز هنگام hover */
+}
+
+
+
+
+/* 
+#projects {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+#projects h2 {
+    text-align: left;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+#projects h3 {
+    
+    font-size: 1.174rem;
+    
+} */
+
+
+.project-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.project-item {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+.project-item img {
+    width: 200px;
+    height: auto;
+    margin-right: 20px;
+    border-radius: 8px;
+}
+
+
+
+
+.project-content {
+    flex: 1;
+}
+
+.project-content h3 {
+    font-size: 1.2rem;
+    margin: 0;
+}
+
+.project-content p {
+    font-size: 0.9rem;
+    margin: 8px 0;
+    line-height: 1.5;
+}
+
+.project-details {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin-top: 10px;
+}
+
+.project-details li {
+    font-size: 0.9rem;
+    line-height: 1.6;
+    margin-bottom: 5px;
+}
+
+.project-btn {
+    display: inline-flex;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    font-size: 0.9rem;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+}
+
+.project-btn i {
+    margin-right: 5px;
+}
+
+.project-btn:hover {
+    background-color: #555;
+}
+
+
+
+
+
+
+#Skills {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+#Skills h2 {
+    text-align: left;
+    font-size: 1.6rem;
+    margin-bottom: 20px;
+}
+
+#Skills ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#Skills li {
+    font-size: 1rem;
+    line-height: 1.8;
+    margin-bottom: 8px;
+}
+
+#Skills li strong {
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+.teacher-assistant {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin-top: 10px;
+}
+
+.teacher-assistant li {
+    font-size: 0.9rem;
+    line-height: 1.6;
+    margin-bottom: 5px;
+}
+
+
+
+
+
+
+
+
+
+/* style.css */
+.separator {
+    border-top: 1px solid lightgray; /* خط جداکننده */
+    margin: 20px 0; /* فاصله از بالا و پایین */
+}
+
+
+
+
+
+
+
+/* تغییر اندازه فونت برای هر بخش */
+.education h2 {
+    font-size: 24px; /* اندازه برای عنوان اصلی */
+}
+
+.education h3 {
+    font-size: 20px; /* اندازه برای رشته تحصیلی */
+}
+
+.education h4 {
+    font-size: 15px; /* اندازه برای نام دانشگاه */
+}
+
+.education h5 {
+    font-size: 15px; /* اندازه برای تاریخ و مکان */
+}
+
+.education-details {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin-top: 10px;
+}
+
+
+.education-details li {
+    font-size: 20px; /* اندازه برای جزئیات */
+
 }
 
