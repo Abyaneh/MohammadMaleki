@@ -7,7 +7,6 @@
 - [About Me](#about-me)
 - [Experience](#experience)
 - [Projects](#projects)
-- [Exhibitions Attended](#exhibitions-attended)
 - [Honors & Awards](#honors--awards)
 - [Interests](#interests)
 - [Contact](#contact)
@@ -60,12 +59,6 @@ My work involves the intersection of mechanical engineering, electronics, and AI
 
 [Back to Top](#table-of-contents)
 
-## Exhibitions Attended
-One of the notable exhibitions I attended is the **IranSakht Exhibition**, held in April 2024. This event showcased advanced technological innovations, and I gained insight into groundbreaking products such as concrete testing machines and LiDAR-based vibration sensors.
-
-The exhibition was an excellent opportunity to connect with industry leaders and explore the latest advancements in mechanical engineering, concrete technology, and industrial automation.
-
-[Back to Top](#table-of-contents)
 
 ## Interests
 - 🏋️‍♂️ **Bodybuilding (Professional)**
