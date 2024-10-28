@@ -6,17 +6,7 @@
 
 
 ## About Me
-Hello! I'm Mohammad Maleki Abyaneh, a passionate Mechatronics Engineer currently pursuing my Bachelor's degree in Mechanical Engineering at K. N. Toosi University of Technology. I have a strong focus on Artificial Intelligence and Robotics, with expertise in developing real-time AI systems and automation solutions for complex industrial applications.
-
-My work involves the intersection of mechanical engineering, electronics, and AI to create innovative solutions. I am particularly interested in computer vision, image processing, and neural networks to improve automation and safety systems.
-
-### My Key Technical Skills Include:
-- Proficiency in Python, MATLAB, and C++
-- Advanced AI and Machine Learning models with TensorFlow and PyTorch
-- Control system design and automation with robotics and embedded systems (Arduino, ESP32)
-- Deep learning, neural networks, and computer vision
-- Image processing for industrial and automation applications
-- Mechatronics and integrating software with hardware systems
+Hello! My name is Mohammad Maleki Abyaneh. I’m currently pursuing my bachelor’s degree in Mechanical Engineering (Mechatronics) at K. N. Toosi University of Technology. I’m eager to apply my knowledge in AI to develop smart and efficient systems and excited to contribute to projects that push the boundaries of engineering and technology.
 
 [Download my resume](link_to_your_resume) 
 
