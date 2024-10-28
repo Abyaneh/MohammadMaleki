@@ -107,6 +107,14 @@ main section ul li {
 }
 
 /* Resume download button */
+
+#about h2 {
+    font-size: 1.8rem;
+    margin-bottom: 16px;
+    color: #35424a;
+}
+
+
 #about p a {
     display: inline-block;
     background-color: #35424a;
@@ -235,27 +243,27 @@ footer p {
 
 
 
-#Personal Interests {
+#Personal_Interests {
     background: #ffffff;
     padding: 20px;
     margin-bottom: 20px;
     border-radius: 5px;
 }
 
-#Personal Interests h2 {
-    font-size: 1.8em;
-    margin-bottom: 10px;
+#Personal_Interests h2 {
+    font-size: 1.8rem;
+    margin-bottom: 16px;
     color: #35424a;
 }
 
-#Personal Interests ul {
+#Personal_Interests ul {
     list-style-type: none;
     padding-left: 0;
 }
 
-#Personal Interests ul li {
+#Personal_Interests ul li {
     margin-bottom: 10px;
-    font-size: 1.2em;
+    font-size: 1em;
     color: #333;
 }
 
@@ -489,6 +497,16 @@ nav ul li a:hover {
 } */
 
 
+#projects h2 {
+    font-size: 1.8rem;
+    margin-bottom: 16px;
+    color: #35424a;
+}
+
+
+
+
+
 .project-list {
     display: flex;
     flex-direction: column;
@@ -573,9 +591,9 @@ nav ul li a:hover {
 }
 
 #Skills h2 {
-    text-align: left;
-    font-size: 1.6rem;
-    margin-bottom: 20px;
+    font-size: 1.8rem;
+    margin-bottom: 16px;
+    color: #35424a;
 }
 
 #Skills ul {
@@ -607,8 +625,10 @@ nav ul li a:hover {
 }
 
 .teacher-assistant li {
-    font-size: 0.9rem;
-    line-height: 1.6;
+    /* font-size: 15px; */
+
+    font-size: 0.9rem; 
+    line-height: 0.97;
     margin-bottom: 5px;
 }
 
@@ -634,7 +654,9 @@ nav ul li a:hover {
 
 /* تغییر اندازه فونت برای هر بخش */
 .education h2 {
-    font-size: 24px; /* اندازه برای عنوان اصلی */
+    font-size: 1.8rem;
+    margin-bottom: 16px;
+    color: #35424a;
 }
 
 .education h3 {
@@ -657,7 +679,208 @@ nav ul li a:hover {
 
 
 .education-details li {
-    font-size: 20px; /* اندازه برای جزئیات */
+    font-size: 0.9rem; 
+    line-height: 0.97;
+    margin-bottom: 5px;
 
+}
+
+
+
+
+
+
+/* استایل اصلی برای بخش Honors & Awards */
+#honors {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+/* عنوان بخش Honors */
+#honors h2 {
+    font-size: 1.8rem;
+    margin-bottom: 16px;
+    color: #35424a;
+}
+
+/* تنظیمات اصلی برای لیست honors */
+.honors-list {
+    list-style-type: none; /* حذف نقطه‌های بولت */
+    padding: 0;
+    margin: 0;
+}
+
+.honors-list li {
+    font-size: 1rem; /* تنظیم اندازه فونت */
+    line-height: 1.5; /* تنظیم ارتفاع خط */
+    font-weight: normal; /* میزان بولد بودن (normal به معنی بدون بولد) */
+    margin-bottom: 1em; /* فاصله بین هر آیتم */
+}
+
+/* دکمه More details */
+.toggle-btn {
+    margin-left: 10px;
+    background-color: #007acc;
+    color: white;
+    border: none;
+    padding: 4px 8px;
+    font-size: 0.9rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.toggle-btn:hover {
+    background-color: #005f99;
+}
+
+/* تنظیمات بخش توضیحات */
+#ptp-description {
+    margin-top: 1em;
+    font-size: 0.95rem; /* اندازه فونت توضیحات */
+    display: none; /* ابتدا پنهان می‌شود */
+}
+
+/* تنظیمات بولد کردن */
+.honors-list li strong {
+    font-weight: normal; /* تنظیم بولد بودن متن */
+}
+
+
+
+
+
+
+.btn-link {
+    font-size: 0.85rem; /* اندازه‌ی متن دکمه */
+    padding: 4px 8px; /* تنظیم فضای داخلی برای کاهش سایز کلی */
+    background-color: #007acc;
+    color: white;
+    text-decoration: none;
+    /* border: 1px solid #007acc; حاشیه‌ای ظریف برای دکمه */
+    border-radius: 5px; /* گوشه‌های گرد */
+    transition: background-color 0.3s;
+    /* , color 0.3s; */
+}
+
+.btn-link:hover {
+    /* background-color: #007acc; رنگ پس‌زمینه هنگام هاور */
+    /* color: white; تغییر رنگ متن در هاور */
+    background-color: #005f99;
+}
+
+
+
+
+/* تنظیمات کلی برای Work Experience */
+.work-experience h2 {
+    font-size: 1.8rem;
+    margin-bottom: 16px;
+    color: #35424a;
+}
+
+
+/* تنظیمات کلی برای Work Experience */
+.work-experience p {
+    font-size: 1rem;
+    text-align: left;
+    margin-bottom: 1em;
+}
+
+
+
+
+
+
+/* تنظیمات برای عنوان دوره (Course Title) */
+.course-title {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 5px; /* فاصله زیر عنوان دوره */
+}
+
+
+
+
+
+
+
+/* تنظیمات برای لیست بولت‌پوینت‌ها */
+.teacher-assistant {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin-top: 0; /* حذف فاصله‌ی اضافی بالای لیست */
+    line-height: 1.4; /* تنظیم فاصله بین آیتم‌های لیست */
+}
+
+.teacher-assistant li {
+    margin-top: 2px; /* فاصله کم بین عنوان و آیتم‌های بولت‌پوینت */
+}
+
+
+
+
+
+
+
+
+
+
+/* تنظیم فاصله برای عنوان موقعیت شغلی */
+.position-title {
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-bottom: 0.1px; /* تنظیم فاصله پایین */
+}
+
+/* تنظیم فاصله برای نام شرکت */
+.company-title {
+    font-size: 1rem;
+    margin-top: 0.1px; /* فاصله بالای شرکت */
+    margin-bottom: 0.11px; /* فاصله پایین شرکت */
+}
+
+/* تنظیم فاصله برای مکان و تاریخ */
+.location-dates {
+    font-size: 0.95rem;
+    color: #555; /* رنگ کمی متفاوت برای تاریخ و مکان */
+    margin-top: 0.1px; /* فاصله بالای تاریخ و مکان */
+    margin-bottom: 0.1px; /* فاصله پایین تاریخ و مکان */
+}
+
+
+
+
+
+
+/* تنظیم فاصله برای عنوان Teaching Assistant */
+.position-title {
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-bottom: 0.1px; /* فاصله پایین عنوان Teaching Assistant */
+}
+
+/* تنظیم فاصله برای عنوان Mechanical Engineering Department */
+.department-title {
+    font-size: 1rem;
+    margin-top: 0.1px; /* فاصله بالای عنوان دپارتمان */
+    margin-bottom: 0.11px; /* فاصله پایین عنوان دپارتمان */
+}
+
+/* تنظیم فاصله برای تاریخ */
+.dates {
+    font-size: 0.95rem;
+    color: #555; /* رنگ کمی متفاوت برای تاریخ */
+    margin-top: 0.1px; /* فاصله بالای تاریخ */
+    margin-bottom: 0.1px; /* فاصله پایین تاریخ */
+}
+
+
+
+
+.justify-text {
+    text-align: justify;
+    /* word-spacing: 2px;
+    letter-spacing: 0.5px; */
 }
 
