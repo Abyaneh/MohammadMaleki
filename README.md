@@ -3,22 +3,25 @@
 
 ## Screenshots from My Personal Website
 
-<img src="https://github.com/Abyaneh/MohammadMaleki/blob/main/photos/Screenshots/Screenshot_1.jpg" alt="Screenshot_1" width="300"/>
+<img src="https://github.com/Abyaneh/MohammadMaleki/blob/main/photos/Screenshots/Screenshot_1.jpg" alt="Screenshot_1" width="600"/>
 
-<img src="https://github.com/Abyaneh/MohammadMaleki/blob/main/photos/Screenshots/Screenshot%20_2.jpg" alt="Screenshot_2" width="300"/>
+<img src="https://github.com/Abyaneh/MohammadMaleki/blob/main/photos/Screenshots/Screenshot%20_2.jpg" alt="Screenshot_2" width="600"/>
 
-<img src="https://github.com/Abyaneh/MohammadMaleki/blob/main/photos/Screenshots/Screenshot_3.jpg" alt="Screenshot_3" width="300"/>
+<img src="https://github.com/Abyaneh/MohammadMaleki/blob/main/photos/Screenshots/Screenshot_3.jpg" alt="Screenshot_3" width="600"/>
 
-<img src="https://github.com/Abyaneh/MohammadMaleki/blob/main/photos/Screenshots/Screenshot_4.jpg" alt="Screenshot_4" width="300"/>
+<img src="https://github.com/Abyaneh/MohammadMaleki/blob/main/photos/Screenshots/Screenshot_4.jpg" alt="Screenshot_4" width="600"/>
 
+
+
+
+
+## About Me
 
 **Mechatronics Engineer & AI Enthusiast**
 
 <img src="https://github.com/Abyaneh/MohammadMaleki/blob/main/photos/Personal_photo1.jpg" alt="Personal_Picture" width="300"/>
 
 
-
-## About Me
 Hello! My name is Mohammad Maleki Abyaneh. I’m currently pursuing my bachelor’s degree in Mechanical Engineering (Mechatronics) at K. N. Toosi University of Technology. I’m eager to apply my knowledge in AI to develop smart and efficient systems and excited to contribute to projects that push the boundaries of engineering and technology.
 
 [Download my resume](https://github.com/Abyaneh/MohammadMaleki/blob/main/CV/CV_Mohammad_Maleki_Abyaneh.pdf) 
