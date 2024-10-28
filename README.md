@@ -8,7 +8,7 @@
 ## About Me
 Hello! My name is Mohammad Maleki Abyaneh. I’m currently pursuing my bachelor’s degree in Mechanical Engineering (Mechatronics) at K. N. Toosi University of Technology. I’m eager to apply my knowledge in AI to develop smart and efficient systems and excited to contribute to projects that push the boundaries of engineering and technology.
 
-[Download my resume](link_to_your_resume) 
+[Download my resume](https://github.com/Abyaneh/MohammadMaleki/blob/main/CV/CV_Mohammad_Maleki_Abyaneh.pdf) 
 
 
 ## Projects
