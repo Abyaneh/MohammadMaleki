@@ -3,13 +3,13 @@
 
 ## Screenshots from My Personal Website
 
-<img src="https://github.com/Abyaneh/MohammadMaleki/blob/main/photos/Personal_photo1.jpg" alt="Screenshot_1" width="300"/>
+<img src="https://github.com/Abyaneh/MohammadMaleki/blob/main/photos/Screenshots/Screenshot_1.jpg" alt="Screenshot_1" width="300"/>
 
-<img src="https://github.com/Abyaneh/MohammadMaleki/blob/main/photos/Personal_photo1.jpg" alt="Screenshot_2" width="300"/>
+<img src="https://github.com/Abyaneh/MohammadMaleki/blob/main/photos/Screenshots/Screenshot%20_2.jpg" alt="Screenshot_2" width="300"/>
 
-<img src="https://github.com/Abyaneh/MohammadMaleki/blob/main/photos/Personal_photo1.jpg" alt="Screenshot_3" width="300"/>
+<img src="https://github.com/Abyaneh/MohammadMaleki/blob/main/photos/Screenshots/Screenshot_3.jpg" alt="Screenshot_3" width="300"/>
 
-<img src="https://github.com/Abyaneh/MohammadMaleki/blob/main/photos/Personal_photo1.jpg" alt="Screenshot_4" width="300"/>
+<img src="https://github.com/Abyaneh/MohammadMaleki/blob/main/photos/Screenshots/Screenshot_4.jpg" alt="Screenshot_4" width="300"/>
 
 
 **Mechatronics Engineer & AI Enthusiast**
