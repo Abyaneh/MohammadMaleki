@@ -339,38 +339,37 @@ nav ul li a:hover {
 
 
 .hidden {
-    display: none;
+    display: none; /* Hide the element */
 }
 
 .toggle-btn {
-    background-color: #007BFF; /* رنگ آبی */
-    color: white;
-    border: none;
-    border-radius: 5px;
-    padding: 5px 10px;
-    cursor: pointer;
+    background-color: #007BFF; /* Blue color */
+    color: white; /* Text color */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    padding: 5px 10px; /* Padding around the button */
+    cursor: pointer; /* Pointer cursor on hover */
 }
 
 .toggle-btn:hover {
-    background-color: #0056b3; /* رنگ تیره‌تر در حالت هاور */
+    background-color: #0056b3; /* Darker color on hover */
 }
 
 #ptp-description {
-    margin-top: 10px;
-    padding: 10px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    background-color: #f9f9f9;
+    margin-top: 10px; /* Top margin */
+    padding: 10px; /* Padding inside the description */
+    border: 1px solid #ddd; /* Light gray border */
+    border-radius: 5px; /* Rounded corners */
+    background-color: #f9f9f9; /* Light gray background */
 }
 
 #ptp-description p {
-    margin: 0; /* حذف حاشیه های پیش فرض پاراگراف */
+    margin: 0; /* Remove default paragraph margins */
 }
 
 #ptp-description img {
-    max-width: 100px; /* حداکثر عرض تصویر */
+    max-width: 100px; /* Maximum width for images */
 }
-
 
 
 
@@ -460,21 +459,20 @@ nav ul li a:hover {
 
 
 .social-links {
-    display: flex;
-    gap: 15px; /* فاصله بین آیکون‌ها */
-    margin-top: 10px; /* فاصله از بخش بالا */
+    display: flex; /* Use flexbox for layout */
+    gap: 15px; /* Space between icons */
+    margin-top: 10px; /* Space from the top section */
 }
 
 .social-links a {
-    color: black;
-    font-size: 1.5rem;
-    transition: color 0.3s;
+    color: black; /* Link color */
+    font-size: 1.5rem; /* Font size for links */
+    transition: color 0.3s; /* Smooth transition for color change */
 }
 
 .social-links a:hover {
-    color: red; /* رنگ قرمز هنگام hover */
+    color: red; /* Red color on hover */
 }
-
 
 
 
@@ -639,20 +637,13 @@ nav ul li a:hover {
 
 
 
-
 /* style.css */
 .separator {
-    border-top: 1px solid lightgray; /* خط جداکننده */
-    margin: 20px 0; /* فاصله از بالا و پایین */
+    border-top: 1px solid lightgray; /* Separator line */
+    margin: 20px 0; /* Space from top and bottom */
 }
 
-
-
-
-
-
-
-/* تغییر اندازه فونت برای هر بخش */
+/* Font size adjustments for each section */
 .education h2 {
     font-size: 1.8rem;
     margin-bottom: 16px;
@@ -660,15 +651,15 @@ nav ul li a:hover {
 }
 
 .education h3 {
-    font-size: 20px; /* اندازه برای رشته تحصیلی */
+    font-size: 20px; /* Size for the degree title */
 }
 
 .education h4 {
-    font-size: 15px; /* اندازه برای نام دانشگاه */
+    font-size: 15px; /* Size for the university name */
 }
 
 .education h5 {
-    font-size: 15px; /* اندازه برای تاریخ و مکان */
+    font-size: 15px; /* Size for date and location */
 }
 
 .education-details {
@@ -677,210 +668,166 @@ nav ul li a:hover {
     margin-top: 10px;
 }
 
-
 .education-details li {
     font-size: 0.9rem; 
     line-height: 0.97;
     margin-bottom: 5px;
-
 }
 
-
-
-
-
-
-/* استایل اصلی برای بخش Honors & Awards */
+/* Main style for the Honors & Awards section */
 #honors {
     padding: 20px;
     font-family: Arial, sans-serif;
 }
 
-/* عنوان بخش Honors */
+/* Section title for Honors */
 #honors h2 {
     font-size: 1.8rem;
     margin-bottom: 16px;
     color: #35424a;
 }
 
-/* تنظیمات اصلی برای لیست honors */
+/* Main settings for the honors list */
 .honors-list {
-    list-style-type: none; /* حذف نقطه‌های بولت */
+    list-style-type: none; /* Remove bullet points */
     padding: 0;
     margin: 0;
 }
 
 .honors-list li {
-    font-size: 1rem; /* تنظیم اندازه فونت */
-    line-height: 1.5; /* تنظیم ارتفاع خط */
-    font-weight: normal; /* میزان بولد بودن (normal به معنی بدون بولد) */
-    margin-bottom: 1em; /* فاصله بین هر آیتم */
+    font-size: 1rem; /* Set font size */
+    line-height: 1.5; /* Set line height */
+    font-weight: normal; /* Normal font weight (not bold) */
+    margin-bottom: 1em; /* Space between each item */
 }
 
-/* دکمه More details */
+/* More details button */
 .toggle-btn {
     margin-left: 10px;
-    background-color: #007acc;
-    color: white;
-    border: none;
-    padding: 4px 8px;
-    font-size: 0.9rem;
-    cursor: pointer;
-    border-radius: 5px;
-    transition: background-color 0.3s;
+    background-color: #007acc; /* Button background color */
+    color: white; /* Button text color */
+    border: none; /* No border */
+    padding: 4px 8px; /* Padding for the button */
+    font-size: 0.9rem; /* Font size for the button */
+    cursor: pointer; /* Pointer cursor */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s; /* Smooth background color transition */
 }
 
 .toggle-btn:hover {
-    background-color: #005f99;
+    background-color: #005f99; /* Background color on hover */
 }
 
-/* تنظیمات بخش توضیحات */
+/* Settings for the description section */
 #ptp-description {
     margin-top: 1em;
-    font-size: 0.95rem; /* اندازه فونت توضیحات */
-    display: none; /* ابتدا پنهان می‌شود */
+    font-size: 0.95rem; /* Font size for descriptions */
+    display: none; /* Initially hidden */
 }
 
-/* تنظیمات بولد کردن */
+/* Bold text settings */
 .honors-list li strong {
-    font-weight: normal; /* تنظیم بولد بودن متن */
+    font-weight: normal; /* Set normal font weight */
 }
-
-
-
-
-
 
 .btn-link {
-    font-size: 0.85rem; /* اندازه‌ی متن دکمه */
-    padding: 4px 8px; /* تنظیم فضای داخلی برای کاهش سایز کلی */
-    background-color: #007acc;
-    color: white;
-    text-decoration: none;
-    /* border: 1px solid #007acc; حاشیه‌ای ظریف برای دکمه */
-    border-radius: 5px; /* گوشه‌های گرد */
-    transition: background-color 0.3s;
+    font-size: 0.85rem; /* Button text size */
+    padding: 4px 8px; /* Padding to reduce overall size */
+    background-color: #007acc; /* Button background color */
+    color: white; /* Button text color */
+    text-decoration: none; /* No underline */
+    /* border: 1px solid #007acc; Optional thin border for button */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s; /* Smooth background color transition */
     /* , color 0.3s; */
 }
 
 .btn-link:hover {
-    /* background-color: #007acc; رنگ پس‌زمینه هنگام هاور */
-    /* color: white; تغییر رنگ متن در هاور */
-    background-color: #005f99;
+    /* background-color: #007acc; Background color on hover */
+    /* color: white; Text color change on hover */
+    background-color: #005f99; /* Background color on hover */
 }
 
-
-
-
-/* تنظیمات کلی برای Work Experience */
+/* General settings for Work Experience */
 .work-experience h2 {
     font-size: 1.8rem;
     margin-bottom: 16px;
     color: #35424a;
 }
 
-
-/* تنظیمات کلی برای Work Experience */
+/* General settings for Work Experience */
 .work-experience p {
     font-size: 1rem;
-    text-align: left;
-    margin-bottom: 1em;
+    text-align: left; /* Align text to the left */
+    margin-bottom: 1em; /* Space below each paragraph */
 }
 
-
-
-
-
-
-/* تنظیمات برای عنوان دوره (Course Title) */
+/* Settings for Course Title */
 .course-title {
     font-size: 1rem;
-    font-weight: bold;
-    margin-bottom: 5px; /* فاصله زیر عنوان دوره */
+    font-weight: bold; /* Bold font */
+    margin-bottom: 5px; /* Space below course title */
 }
 
-
-
-
-
-
-
-/* تنظیمات برای لیست بولت‌پوینت‌ها */
+/* Settings for bullet point list */
 .teacher-assistant {
-    list-style-type: disc;
-    padding-left: 20px;
-    margin-top: 0; /* حذف فاصله‌ی اضافی بالای لیست */
-    line-height: 1.4; /* تنظیم فاصله بین آیتم‌های لیست */
+    list-style-type: disc; /* Disc bullet points */
+    padding-left: 20px; /* Padding on the left */
+    margin-top: 0; /* Remove extra space above the list */
+    line-height: 1.4; /* Set spacing between list items */
 }
 
 .teacher-assistant li {
-    margin-top: 2px; /* فاصله کم بین عنوان و آیتم‌های بولت‌پوینت */
+    margin-top: 2px; /* Small space between title and bullet points */
 }
 
-
-
-
-
-
-
-
-
-
-/* تنظیم فاصله برای عنوان موقعیت شغلی */
+/* Settings for job title spacing */
 .position-title {
     font-size: 1.1rem;
-    font-weight: bold;
-    margin-bottom: 0.1px; /* تنظیم فاصله پایین */
+    font-weight: bold; /* Bold font */
+    margin-bottom: 0.1px; /* Space below */
 }
 
-/* تنظیم فاصله برای نام شرکت */
+/* Settings for company name spacing */
 .company-title {
     font-size: 1rem;
-    margin-top: 0.1px; /* فاصله بالای شرکت */
-    margin-bottom: 0.11px; /* فاصله پایین شرکت */
+    margin-top: 0.1px; /* Space above company name */
+    margin-bottom: 0.11px; /* Space below company name */
 }
 
-/* تنظیم فاصله برای مکان و تاریخ */
+/* Settings for location and date spacing */
 .location-dates {
     font-size: 0.95rem;
-    color: #555; /* رنگ کمی متفاوت برای تاریخ و مکان */
-    margin-top: 0.1px; /* فاصله بالای تاریخ و مکان */
-    margin-bottom: 0.1px; /* فاصله پایین تاریخ و مکان */
+    color: #555; /* Slightly different color for date and location */
+    margin-top: 0.1px; /* Space above date and location */
+    margin-bottom: 0.1px; /* Space below date and location */
 }
 
-
-
-
-
-
-/* تنظیم فاصله برای عنوان Teaching Assistant */
+/* Settings for Teaching Assistant title spacing */
 .position-title {
     font-size: 1.1rem;
-    font-weight: bold;
-    margin-bottom: 0.1px; /* فاصله پایین عنوان Teaching Assistant */
+    font-weight: bold; /* Bold font */
+    margin-bottom: 0.1px; /* Space below Teaching Assistant title */
 }
 
-/* تنظیم فاصله برای عنوان Mechanical Engineering Department */
+/* Settings for Mechanical Engineering Department title spacing */
 .department-title {
     font-size: 1rem;
-    margin-top: 0.1px; /* فاصله بالای عنوان دپارتمان */
-    margin-bottom: 0.11px; /* فاصله پایین عنوان دپارتمان */
+    margin-top: 0.1px; /* Space above department title */
+    margin-bottom: 0.11px; /* Space below department title */
 }
 
-/* تنظیم فاصله برای تاریخ */
+/* Settings for date spacing */
 .dates {
     font-size: 0.95rem;
-    color: #555; /* رنگ کمی متفاوت برای تاریخ */
-    margin-top: 0.1px; /* فاصله بالای تاریخ */
-    margin-bottom: 0.1px; /* فاصله پایین تاریخ */
+    color: #555; /* Slightly different color for date */
+    margin-top: 0.1px; /* Space above date */
+    margin-bottom: 0.1px; /* Space below date */
 }
 
-
-
-
 .justify-text {
-    text-align: justify;
-    /* word-spacing: 2px;
-    letter-spacing: 0.5px; */
+    text-align: justify; /* Justify text alignment */
+    /* word-spacing: 2px; Optional word spacing */
+    /* letter-spacing: 0.5px; Optional letter spacing */
 }
 
