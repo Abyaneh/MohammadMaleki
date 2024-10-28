@@ -20,6 +20,22 @@ My work involves the intersection of mechanical engineering, electronics, and AI
 
 [Download my resume](link_to_your_resume) 
 
+
+## Projects
+- 🚜🔴🌧❄ Real-time Collision Avoidance Smart System for Dump Trucks using Deep Learning
+- 🤖🍌 Autonomous Agricultural Robot Navigation and Object Detection
+- 🚗 Vehicle Detection and Counting System Using YOLO and SORT Tracker
+- 🤖🏨 Smart Hospital
+- 🚗 CNN-Based Steering Angle Estimation
+- 🩺 Fatty Liver Disease Diagnosis using Neural Networks
+- 👗👖 Clothing Classification using CNNs
+- 🎱 Control of Ball Position on a Horizontal Rod
+- 🎯 Inverted Pendulum Control System
+- 📐 Rise and Slope Calculation in Beams
+- 🏗 Truss Structure Analysis Project
+- ❌⭕ Tic-Tac-Toe Game
+
+
 ## Contact
 You can reach me at:
 - **Email:** [mohammad.malekiabyaneh@gmail.com](mailto:mohammad.malekiabyaneh@gmail.com)
