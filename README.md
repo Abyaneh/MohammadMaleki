@@ -19,7 +19,7 @@
 
 **Mechatronics Engineer & AI Enthusiast**
 
-<img src="https://github.com/Abyaneh/MohammadMaleki/blob/main/photos/Personal_photo1.jpg" alt="Personal_Picture" width="300"/>
+<img src="https://github.com/Abyaneh/MohammadMaleki/blob/main/photos/Personal_photo1.webp" alt="Personal_Picture" width="300"/>
 
 
 Hello! My name is Mohammad Maleki Abyaneh. I’m currently pursuing my bachelor’s degree in Mechanical Engineering (Mechatronics) at K. N. Toosi University of Technology. I’m eager to apply my knowledge in AI to develop smart and efficient systems and excited to contribute to projects that push the boundaries of engineering and technology.
