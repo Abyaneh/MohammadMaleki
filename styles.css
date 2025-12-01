@@ -762,6 +762,12 @@ nav ul li a:hover {
     margin-bottom: 1em; /* Space below each paragraph */
 }
 
+
+.justify-text { 
+    text-align: justify; 
+}
+
+
 .work-experience p.justify-text {
     text-align: justify;
 }
