@@ -762,6 +762,11 @@ nav ul li a:hover {
     margin-bottom: 1em; /* Space below each paragraph */
 }
 
+.work-experience p.justify-text {
+    text-align: justify;
+}
+
+
 /* Settings for Course Title */
 .course-title {
     font-size: 1rem;
