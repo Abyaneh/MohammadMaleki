@@ -46,7 +46,7 @@
     <header>
         <div class="container">
             <img src="photos/Personal_pohoto.webp" alt="Logo" class="circular-image">
-            <h1>Mohammad Maleki Abyaneh</h1>
+            <h1>Mohammad Malekiabyaneh</h1>
             <p>Mechatronics Engineer & AI Enthusiast</p>
         </div>
     </header>
@@ -72,7 +72,7 @@
         <div class="container">
             <section id="about">
                 <h2>About Me</h2>
-                <p class="justify-text">Hello! My name is Mohammad Maleki Abyaneh. I’m currently pursuing my bachelor’s degree in Mechanical Engineering (Mechatronics) at K. N. Toosi University of Technology. I’m eager to apply my knowledge in AI to develop smart and efficient systems and excited to contribute to projects that push the boundaries of engineering and technology.</p>
+                <p class="justify-text">Hello! My name is Mohammad Malekiabyaneh. I’m currently pursuing my bachelor’s degree in Mechanical Engineering (Mechatronics) at K. N. Toosi University of Technology. I’m eager to apply my knowledge in AI to develop smart and efficient systems and excited to contribute to projects that push the boundaries of engineering and technology.</p>
                 <!-- <p>My work involves the intersection of mechanical engineering, electronics, and AI to create innovative solutions. I am particularly interested in computer vision, image processing, and neural networks to improve automation and safety systems.</p>
                  -->
                 <div class="social-links">
@@ -121,7 +121,7 @@
             
                         <ul class="education-details" style="line-height: 1; margin-top: 5px; padding-left: 15px;">
                             <li><strong>Major:</strong> Mechatronics</li>
-                            <li><strong>Thesis:</strong> Real-time Collision Avoidance Smart System for Dump Trucks using Deep Learning</li>
+                            <li><strong>Thesis:</strong> Simulation of a Deep Learning–Based Hazard-Zone Detection and Warning System for Open-Pit Mining Trucks under Varying Weather and Speed Conditions</li>
                         </ul>
                     </ul>
                 </div>
@@ -179,7 +179,7 @@
                         <h5 class="dates">Sep 2023 - Feb 2024</h5>
                         
                         <h5>Computer Programming in C++</h5>
-                        <ul class="teacher-assistant" style="line-height: 1; margin-top: -15px; padding-left: 15px;">
+                        <ul class="teacher-assistant" style="line-height: 1; margin-top: -5px; padding-left: 15px;">
                             <li>Conducted teaching and exercise-solving classes</li>
                             <li>Designed and graded assignments and exams</li>
                         </ul>
@@ -199,8 +199,8 @@
                     <li><strong>Programming Languages:</strong> Python, C++, MATLAB</li>
                     <li><strong>Artificial Intelligence:</strong> Neural Networks, Segmentation, Detection, Classification, Regression</li>
                     <li><strong>Tools and Libraries:</strong> PyTorch, TensorFlow, Keras, OpenCV, NumPy, Pandas, Matplotlib, scikit-learn</li>
-                    <li><strong>Mechanical Engineering:</strong> Mechatronics, Robotics, Control Systems</li>
-                    <li><strong>Tools & Software:</strong> Git/GitHub, Altium Designer, LaTeX</li>
+                    <li><strong>Mechanical Engineering:</strong> Mechatronics, Robotics, Control Systems, Sensor Fusion</li>
+                    <li><strong>Tools & Software:</strong> Git/GitHub, Altium Designer, Excel, Word, PowerPoint, CARLA, LaTeX</li>
                     <li><strong>Development boards:</strong> Arduino, ESP32, Raspberry Pi</li>
                     <li><strong>Web Development:</strong> HTML, CSS</li>
                     <li><strong>Operating systems:</strong> Windows, Linux</li>
@@ -389,11 +389,50 @@
                 <h2>Research & Projects</h2>
                 <div class="project-list">
             
+
+                    <!-- Project — B.Sc. Thesis -->
+                    <div class="project-item" id="proj-bsc-thesis">
+                        <img src="photos/Dump_Truck_CARLA.webp"
+                            alt="Weather-Aware Hazard Zone Simulation for Open-Pit Mine Dump Trucks"
+                            style="margin-top:-180px;" loading="lazy">
+                        <div class="project-content">
+                            <h3>🚚⚠️🌦️🧠 Simulation of a Deep Learning–Based Hazard-Zone Detection and Warning System for Open-Pit Mining Trucks under Varying Weather and Speed Conditions (B.Sc. Thesis)</h3>
+
+                            <p class="justify-text">
+                                CARLA-based simulation of open-pit mine traffic that adapts dump-truck
+                                <strong>red/yellow hazard zones</strong> to vehicle speed and road/weather conditions.
+                                A <strong>ResNet-18 weather classifier</strong> (Sunny-Dry / Rainy-Wet / Snowy-Icy / Dusty-Dry) feeds a friction-aware
+                                <strong>braking-distance and TTC/THW model</strong>, with real-time overlays and
+                                <strong>CSV logging</strong> for quantitative risk analysis.
+                            </p>
+
+                            <ul class="project-details">
+                                <li class="justify-text">Trained a ResNet-18 weather classifier on open-pit mine scenes (4 road/weather-condition classes).</li>
+                                <li class="justify-text">Derived physics-informed braking and hazard-zone scaling from speed, friction coefficient μ, and road grade.</li>
+                                <li class="justify-text">Implemented real-time visualization, warnings, and reproducible CARLA scenarios with logged metrics.</li>
+                            </ul>
+
+                            <p><strong>Keywords:</strong> ResNet-18, Weather Classification, CARLA Simulation, OpenCV, Hazard Zones, Braking Distance, TTC/THW</p>
+
+
+                            <!-- Replace with your exact repository URL -->
+                            <button class="project-btn"
+                                    onclick="window.open('https://github.com/Abyaneh/Simulation-of-Weather-Aware-Hazard-Zones-for-Mine-Dump-Trucks-Using-CARLA','_blank')">
+                                <i class="fab fa-github"></i> Code
+                            </button>
+                        </div>
+                    </div>
+
+
+
+
+
+                    
                     <!-- Project 1 -->
                     <div class="project-item">
                         <img src="photos/dump-truck-image.webp" alt="Hazard Zone Detection" style="margin-top: -200px;">
                         <div class="project-content">
-                            <h3>🚜🔴🌧❄ Real-time Collision Avoidance Smart System for Dump Trucks using Deep Learning (BSc thesis)</h3>
+                            <h3>🚜🔴🌧❄ Real-time Collision Avoidance Smart System for Dump Trucks using Deep Learning (Research Prototype)</h3>
                             <p class="justify-text">This project develops a hazard zone detection system for dynamic dump trucks, analyzing road conditions and potential risks using advanced algorithms.</p>
                             
                             <!-- New Bullet Points -->
@@ -484,7 +523,7 @@
                     <div class="project-item">
                         <img src="photos/Clothing Classification Image.webp" alt="Clothing Classification using CNNs">
                         <div class="project-content">
-                            <h3 style="margin-top: -35px;">👗👖 Clothing Classification using CNNs</h3>
+                            <h3 style="margin-top: -15px;">👗👖 Clothing Classification using CNNs</h3>
                             <p class="justify-text">This project uses Convolutional Neural Networks (CNNs) to classify various clothing types such as shirts, pants, dresses, and more. It achieves high accuracy through deep learning techniques and data augmentation.</p>
                             <p><strong>Keywords:</strong> Python, TensorFlow, Keras, CNN, Pandas, NumPy, Data Augmentation</p>
                             <button class="project-btn" onclick="window.open('https://github.com/Abyaneh/Clothing_Classification_Neural_Network_project', '_blank')">
@@ -561,7 +600,7 @@
                     <div class="project-item" style="display: flex; align-items: center;">
                         <img src="photos/tic-tac-toe1.webp" alt="Tic-Tac-Toe Game">
                         <div class="project-content">
-                            <h3 style="margin-top: -85px;">❌⭕ Tic-Tac-Toe Game</h3> <!-- The title has been moved up -->
+                            <h3 style="margin-top: -10px;">❌⭕ Tic-Tac-Toe Game</h3> <!-- The title has been moved up -->
                             <p class="justify-text">This project is a classic Tic-Tac-Toe game implemented in C++. It allows two players to take turns marking their symbols on a 4x4 grid and determines the winner or if the game ends in a draw.</p>
                             <p><strong>Keywords:</strong> C++</p>
                             <button class="project-btn" onclick="window.open('https://github.com/Abyaneh/tic-tac-toe', '_blank')">
@@ -733,7 +772,7 @@
 
     <footer>
         <div class="container">
-            <p>&copy; 2024 Mohammad Maleki Abyaneh. All rights reserved.</p>
+            <p>&copy; 2025 Mohammad Malekiabyaneh. All rights reserved.</p>
         </div>
         <button onclick="scrollToTop()" id="scrollToTopBtn" title="Go to top">
             ↑

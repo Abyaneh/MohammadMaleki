@@ -831,3 +831,35 @@ nav ul li a:hover {
     /* letter-spacing: 0.5px; Optional letter spacing */
 }
 
+
+
+
+
+/* ===== Mobile-only fixes (keep desktop intact) ===== */
+@media (max-width: 768px) {
+  /* جلوگیری از هم‌پوشانی در Work Experience */
+  .work-experience > div { display: flex; align-items: flex-start; gap: 12px; }
+  .work-experience > div img { width: 64px; flex: 0 0 64px; margin: 0 12px 0 0 !important; }
+  .work-experience h3, .work-experience h5 { margin: 2px 0; line-height: 1.3; }
+  .work-experience p { font-size: .95rem; line-height: 1.55; margin: 6px 0 8px; }
+  .work-experience .btn-link { display: inline-block; white-space: nowrap; margin-top: 6px; } /* دکمه Website/Learn more نرود روی متن */
+
+  /* Education کمی بازتر و خواناتر */
+  .education > div { display: flex; align-items: flex-start; gap: 12px; }
+  .education img { width: 60px; flex: 0 0 60px; margin: 0 10px 0 0 !important; }
+  .education h3 { font-size: 1rem; line-height: 1.35; margin: 4px 0; }
+  .education ul { line-height: 1.3 !important; }
+
+  /* کارت‌های پروژه: تصویر بالا، متن پایین (فقط موبایل) */
+  #projects .project-item { flex-direction: column; align-items: flex-start; }
+  #projects .project-item img {
+    width: 100%; max-width: 420px; height: auto;
+    margin: 0 0 12px 0 !important; border-radius: 8px;
+  }
+
+  /* هر margin-top منفی داخل style=... را در موبایل خنثی کن */
+  img[style*="margin-top"] { margin-top: 0 !important; }
+
+  /* پس‌زمینه fixed روی موبایل اسکرول شود تا لگ ندهد */
+  body { background-attachment: scroll; }
+}
